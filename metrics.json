@@ -1,0 +1,23 @@
+{
+  "best": "GradientBoosting",
+  "results": {
+    "LinearRegression": {
+      "cv_rmse": 10.992,
+      "test_rmse": 11.22,
+      "test_mae": 8.195,
+      "test_r2": 0.9688
+    },
+    "RandomForest": {
+      "cv_rmse": 3.169,
+      "test_rmse": 2.729,
+      "test_mae": 1.748,
+      "test_r2": 0.9982
+    },
+    "GradientBoosting": {
+      "cv_rmse": 1.74,
+      "test_rmse": 1.667,
+      "test_mae": 1.235,
+      "test_r2": 0.9993
+    }
+  }
+}
